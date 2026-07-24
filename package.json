@@ -1,0 +1,22 @@
+{
+  "name": "library-checkout-graphql",
+  "version": "1.0.0",
+  "description": "Apollo GraphQL server backing a library's book checkout system",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "dev": "tsc --watch & node --watch ./dist/index.js",
+    "compile": "tsc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.11.3",
+    "graphql": "^16.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3"
+  }
+}
